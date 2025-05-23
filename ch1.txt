@@ -1,0 +1,38 @@
+chapter 1: Setup your code Environment
+1. check python version
+python --version
+python3 --version
+install from https://www.python.org/downloads/
+usually select/install slightly lower version (not very old) for PyTorch compatibility
+
+2. Install uv package 
+Like pip package but faster than pip
+pip install uv
+
+3. Create a virtual Environment
+uv venv --python=python3.10 
+
+4. Activate an Environment
+.venv\Scripts\activate
+
+5. Download github resources (For Reference)
+Navigate to https://github.com/rasbt/LLMs-from-scratch and download it manually.(Or)
+git clone https://github.com/rasbt/LLMs-from-scratch
+
+6. Check the python (what version or where the location)
+where python
+python --version
+
+7. Install required packages (one by one)
+uv pip install packages
+uv pip install torch (Or)
+uv pip install -r requirements.txt
+uv pip install https://github.com/rasbt/LLMs-from-scratch/blob/main/requirements.txt
+
+8. Open jupyter notebook in a local machine
+uv run jupyter lab
+
+9. Install packages in Google Colab (--system a non-virtual Environment)
+!pip install uv
+!uv pip install https://github.com/rasbt/LLMs-from-scratch/blob/main/requirements.txt --system
+
