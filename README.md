@@ -1,5 +1,6 @@
 # Build a Large Language Model (From Scratch) 
 Author: Sebastian Raschka
+
 (https://github.com/rasbt/LLMs-from-scratch)
 
 (https://www.youtube.com/playlist?list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11)
